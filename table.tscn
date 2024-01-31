@@ -1,0 +1,22 @@
+[gd_scene load_steps=2 format=3 uid="uid://cbufojhu6thbi"]
+
+[ext_resource type="Script" path="res://table.gd" id="1_yf8i4"]
+
+[node name="Control" type="PanelContainer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+script = ExtResource("1_yf8i4")
+
+[node name="Tree" type="Tree" parent="."]
+layout_mode = 2
+columns = 4
+column_titles_visible = true
+hide_folding = true
+enable_recursive_folding = false
+hide_root = true
+select_mode = 1
